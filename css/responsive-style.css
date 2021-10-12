@@ -1,0 +1,72 @@
+/*ipad pro media*/
+@media (max-width:1030px){
+    video{
+        max-width: 100%;
+        min-height: 100vh;
+    }
+    .video-text{
+        margin-top:4rem;  
+    }
+    .video-title{
+        font-size: 3rem;
+        font-weight: 900;
+    }
+    .video-lorem{
+        font-size: 1.1rem;
+        text-align: center;
+        display: inline-block;
+        max-width: 50%;
+        margin: 1rem 0;
+    }
+
+
+
+
+
+
+}
+/*ipad media*/
+@media (max-width:992px){
+
+
+
+
+
+
+
+
+
+}
+/*mobile media*/
+@media (max-width:767px){
+    video{
+        max-width: 100%;
+        min-height: 100vh;
+        z-index: 1;
+        position: absolute;
+
+        left: 0;
+        object-fit: cover;
+    }
+    .video-text{
+        margin-top:0rem;  
+    }
+    .video-title{
+        font-size: 2rem;
+        font-weight: 900;
+    }
+    .video-lorem{
+        font-size: 1rem;
+        text-align: center;
+        display: inline-block;
+        max-width: 70%;
+    }
+    .sign-in{
+        margin-top: 0.8rem;
+    }
+    .footer{
+
+        text-align: center;
+
+    }
+}
