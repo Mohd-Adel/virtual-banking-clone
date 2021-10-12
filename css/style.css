@@ -146,7 +146,7 @@ video{
 .discover{
     background-color: var(--primary-color);
     color: var(--text-color);
-    padding-top: 10rem;
+    padding-top: 3rem;
     padding-bottom:5rem ;
 }
 .disc-img img{
